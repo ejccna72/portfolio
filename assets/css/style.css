@@ -91,18 +91,19 @@ footer a {
 }
 
 section {
-  padding: 30px;
+  padding: 150px;
   align-items: center;
 }
 
 .about {
   background: white;
-  padding-top: 200px;
+  padding-top: -150px;
+  
 }
 
 .flex-row {
   padding: 10px;
-  margin: 0 0 20px 0;
+  margin: 20px 0 20px 0;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -169,7 +170,7 @@ section {
   border-bottom: 3px solid;
   padding-bottom: 20px;
   text-align: center;
-  margin: 0 auto 0 auto;
+  margin:  auto;
   width: 50%;
 }
 
@@ -184,23 +185,21 @@ section {
 
 .contact h2 {
   color: var(--primary-color);
+  text-align: center ;
 }
 
 .contact-info {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-
-.contact-info iframe {
-  height: 400px;
+  text-align: center;
 }
 
 .contact-info div {
   width: 410px;
   display: inline-block;
   vertical-align: top;
-  text-align: left;
+  text-align: center;
   margin: 30px 0 0 60px;
 }
 

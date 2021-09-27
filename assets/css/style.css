@@ -106,11 +106,10 @@ section {
   justify-content: space-around;
 }
 
-
-
 .blackbg {
   background: var(--tertiary-color);
   padding-top: 130px;
+  border: 3px solid red;
 }
 
 .port {
@@ -168,7 +167,7 @@ section {
 }
 
 .port-img-small img {
-  max-width: 10%;
+  max-width: 5%;
   padding: 60px;
 }
 
@@ -176,6 +175,10 @@ section {
   font-size: 48px;
   color: var(--primary-color);
   font-family: 'Times New Roman', Times, serif;
+}
+
+.section-text {
+  color: var(--primary-color);
 }
 
 .primary-border {

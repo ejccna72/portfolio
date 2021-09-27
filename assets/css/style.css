@@ -91,11 +91,23 @@ footer a {
   color: var(--secondary-color);
 }
 
+/* apply styles to sections */
 section {
   padding: 150px;
   align-items: center;
 }
 
+.section-title {
+  font-size: 48px;
+  color: var(--primary-color);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.section-text {
+  color: var(--primary-color);
+}
+
+/* configure flex row */
 .flex-row {
   padding: 10px;
   margin: auto;
@@ -106,12 +118,14 @@ section {
   justify-content: space-around;
 }
 
+/* setup black background and red borders */
 .blackbg {
   background: var(--tertiary-color);
   padding-top: 130px;
   border: 3px solid red;
 }
 
+/* configure styles for Portfolio */
 .port {
   margin: 50px auto;
   padding: 30px;
@@ -157,7 +171,7 @@ section {
 }
 
 .port-img img {
-  max-width: 20%;
+  max-width: 70%;
   padding: 60px;
 }
 
@@ -169,20 +183,6 @@ section {
 .port-img-small img {
   max-width: 5%;
   padding: 60px;
-}
-
-.section-title {
-  font-size: 48px;
-  color: var(--primary-color);
-  font-family: 'Times New Roman', Times, serif;
-}
-
-.section-text {
-  color: var(--primary-color);
-}
-
-.primary-border {
-  border-color: var(--primary-color);
 }
 
 /* CONTACT STYLES START */
@@ -227,8 +227,6 @@ section {
   margin: 15px;
 }
 
-
-
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
   header {
@@ -259,6 +257,7 @@ section {
   
   .section-title {
     width: 80%;
+    text-align: center;
   }
   
 }
@@ -297,6 +296,9 @@ section {
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
 
+  .section-title {
+    width: 95%;
+  }
 
 
 }

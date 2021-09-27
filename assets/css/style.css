@@ -11,9 +11,8 @@
 }
 
 body {
-  /* more on this crazy alphanumerical value in a minute! */
   color: var(--tertiary-color);
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif, Arial, sans-serif;
 }
 
 /* apply styles to <header> */
@@ -69,7 +68,8 @@ header nav ul li a:hover {
 footer {
   background: var(--tertiary-color);
   width: 100%;
-  padding: 40px 35px;
+  padding: auto;
+  margin: 20px 0px 0px 0px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -77,8 +77,9 @@ footer {
 
 footer h2 {
   color: var(--primary-color);
-  font-size: 30px;
+  font-size: 15px;
   margin: 0;
+  padding: 20px 0px 20px 0px;
 }
 
 footer div {
@@ -95,23 +96,19 @@ section {
   align-items: center;
 }
 
-.about {
-  background: white;
-  padding-top: -150px;
-  
-}
-
 .flex-row {
   padding: 10px;
-  margin: 20px 0 20px 0;
+  margin: auto;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-.ports {
+
+
+.blackbg {
   background: var(--tertiary-color);
   padding-top: 130px;
 }
@@ -119,12 +116,10 @@ section {
 .port {
   margin: 50px auto;
   padding: 30px;
-  width: 80%;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid var(--primary-color);
+  justify-content: space-around;
+  
 }
 
 .port h3 {
@@ -135,6 +130,7 @@ section {
 
 .port-text {
   flex: 12;
+  color: var(--primary-color);
 }
 
 .port-info {
@@ -147,6 +143,7 @@ section {
 .port-text p {
   color: var(--primary-color);
   font-size: 18px;
+  padding: 50px;
 }
 
 .port-text h4 {
@@ -157,21 +154,28 @@ section {
 
 .port-img {
   flex: 1 12%;
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 .port-img img {
-  max-width: 100%;
+  max-width: 20%;
+  padding: 60px;
+}
+
+.port-img-small {
+  flex: 1 12%;
+  margin-right: 40px;
+}
+
+.port-img-small img {
+  max-width: 10%;
+  padding: 60px;
 }
 
 .section-title {
   font-size: 48px;
   color: var(--primary-color);
-  border-bottom: 3px solid;
-  padding-bottom: 20px;
-  text-align: center;
-  margin:  auto;
-  width: 50%;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .primary-border {
@@ -222,8 +226,6 @@ section {
 
 
 
-/* REACH OUT STYLES END */
-
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
   header {
@@ -256,9 +258,6 @@ section {
     width: 80%;
   }
   
-  .contact-info iframe{
-    flex: 1 100%;
-  }
 }
 
 
@@ -295,19 +294,6 @@ section {
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
 
-  .section-title {
-    width: 95%;
-  }
 
-  .intro p {
-    width: 100%;
-  }
 
-  .contact-info {
-    text-align: center;
-  }
-
-  .contact-info > * {
-    flex: 0 100%;
-  }
 }

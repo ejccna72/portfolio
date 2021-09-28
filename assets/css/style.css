@@ -31,11 +31,11 @@ section {
 
 /* Container */
 .container {
-	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 	height: 1200px;
 	background-color: #FFFFFF;
+    align-items: center;
 }
 
 /* Banner  */
@@ -140,6 +140,7 @@ ul li:hover a {
     color: #2C9AB7;
     border-right: 3px solid;
     text-align: center;
+    padding: 20px;
   }
   
 .primary-border {
@@ -206,6 +207,11 @@ footer a {
 
     .section-title {
       width: 95%;
+    }
+
+    .container {
+        height: 2000px;
+        width: 600px;
     }
   
   }

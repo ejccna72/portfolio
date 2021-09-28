@@ -120,12 +120,14 @@ ul li:hover a {
 
 .flex-container {
     display: flex;
-	align-items: center;
-	justify-content: space-between;
+	  align-items: center;
+	  justify-content: space-between;
     margin-left: 20px;
-	margin-right: 400px;
+	  margin-right: 400px;
     margin-bottom: 20px;
   }
+
+
 
 .section-title {
     color: #2C9AB7;

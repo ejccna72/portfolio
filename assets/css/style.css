@@ -35,7 +35,7 @@ section {
 	margin-right: auto;
 	height: 1200px;
 	background-color: #FFFFFF;
-    align-items: center;
+
 }
 
 /* Banner  */
@@ -122,18 +122,9 @@ ul li:hover a {
     display: flex;
 	align-items: center;
 	justify-content: space-between;
+    margin-left: 20px;
 	margin-right: 400px;
-  }
-  
-.flex-container > div {
-    margin-left: 30px;
-    margin-right: 30px;
-	margin-top: 30px;
-    padding: 20px;
-    color: #2C9AB7;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border: #2C9AB7 3px;
-	justify-content: center;
+    margin-bottom: 20px;
   }
 
 .section-title {
@@ -206,12 +197,15 @@ footer a {
 @media screen and (max-width: 575px) {
 
     .section-title {
-      width: 95%;
+      width: 60%;
     }
 
     .container {
+        background-color: #FFFFFF;
+        align-items: center;
         height: 2000px;
-        width: 600px;
+        
     }
+
   
   }

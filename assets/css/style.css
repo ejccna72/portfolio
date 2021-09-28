@@ -130,7 +130,8 @@ ul li:hover a {
     display: flex;
     justify-content: space-between;
 	  align-items: center;
-    margin-right: 600px;
+	  margin-right: 400px;
+    margin-bottom: 20px;
   }
 
 .section-title {

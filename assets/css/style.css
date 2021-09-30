@@ -23,8 +23,10 @@ div {
     text-align: center;  
 }
 
+
+
 a {
-  color: #2C9AB7;
+  color: #c97b06;;
   font-weight: bolder;
   font-style: italic;
   text-decoration: none;
@@ -46,7 +48,7 @@ section {
 .container {
 	margin-left: auto;
 	margin-right: auto;
-	height: 1200px;
+
 	background-color: #FFFFFF;
 
 }
@@ -140,7 +142,14 @@ ul li:hover a {
     justify-content: start
   }
 
-
+  .flex-container2 {
+    display: flex;
+	  align-items: center;
+    margin-left: auto;
+	  margin-right: 50px;
+    margin-bottom: 20px;
+    justify-content: space-between
+  }
 
 .section-title {
     color: #2C9AB7;
@@ -152,16 +161,17 @@ ul li:hover a {
 
 
 footer {
-    text-align: center;
+   
     font-size: 24px;
     font-weight: bold;
     font-style: italic;
-    color: #2C9AB7;
-    margin-top: 40px;
+    padding-top: 30px;
+    
+    
 }
 
 footer a {
-    color: #2C9AB7;
+    color: #c97b06;
 }
 
 
@@ -197,21 +207,46 @@ footer a {
     }
   }
 
-  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  /* MEDIA QUERY FOR SCREENS 768px AND SMALLER */
+
   @media screen and (max-width: 768px) {
-    
 
     .container {
-      height: 1500px;
+      padding-left: 60px;
     }
-  
-  
+
+    .flex-container {
+      padding-top: 20px;
+    }
+    
+  }
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
 
+    .container {
+      height: 1350px;
+    }
+
+    #mainbody {
+      margin-left: 20px;
+    }
+
     .flex-container {
       display: block;
+      margin-left: 40px;
+    }
+
+    .flex-container2 {
+      display: block;
+      margin-left: 40px;
     }
   }
+
+@media screen and (max-width: 375px) {
+
+ .container {
+  padding-left: 0px;
+  height: 1360px;
+ }
 }

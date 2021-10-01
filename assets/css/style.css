@@ -141,13 +141,13 @@ ul li:hover a {
     justify-content: start
   }
 
-  .flex-container2 {
+.flex-container2 {
     display: flex;
 	  align-items: center;
     margin-left: auto;
 	  margin-right: 50px;
     margin-bottom: 20px;
-    justify-content: space-between
+    
   }
 
 .section-title {

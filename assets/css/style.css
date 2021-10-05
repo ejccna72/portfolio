@@ -20,7 +20,8 @@ body {
 div {
     color: #2C9AB7;
     font-size: 16px;
-    text-align: center;  
+    text-align: center;
+    font-weight: bolder;  
 }
 
 
@@ -48,9 +49,8 @@ section {
 .container {
 	margin-left: auto;
 	margin-right: auto;
-
 	background-color: #FFFFFF;
-
+  height: 1200px;
 }
 
 /* Banner  */
@@ -138,6 +138,7 @@ ul li:hover a {
     margin-left: auto;
 	  margin-right: 50px;
     margin-bottom: 20px;
+    margin-top: 20px;
     justify-content: start
   }
 
@@ -153,6 +154,13 @@ ul li:hover a {
 .section-title {
     color: #2C9AB7;
     
+    text-align: center;
+    padding: 30px;
+    margin-right: 100px;
+  }
+
+  .section-title2 {
+    color: #ffffff;
     text-align: center;
     padding: 30px;
     margin-right: 100px;
@@ -205,6 +213,10 @@ ul li:hover a {
     #mainbody {
       max-width: 90%;
     }
+
+    .container {
+      height: 1250px;
+    }
   }
 
   /* MEDIA QUERY FOR SCREENS 768px AND SMALLER */
@@ -212,7 +224,7 @@ ul li:hover a {
   @media screen and (max-width: 768px) {
 
     .container {
-      
+      height: 2000px;
     }
 
     .flex-container {
@@ -225,7 +237,7 @@ ul li:hover a {
   @media screen and (max-width: 575px) {
 
     .container {
-      height: 1350px;
+      height: 2200px;
     }
 
     #mainbody {
@@ -247,6 +259,6 @@ ul li:hover a {
 
  .container {
   padding-left: 0px;
-  height: 1360px;
+  height: 2200px;
  }
 }
